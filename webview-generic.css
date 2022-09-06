@@ -2025,11 +2025,15 @@ pre[data-type=code].centered-code {
 }
 
 .equation {
+  overflow: auto;
+}
+
+.equation > div {
   display: table;
   width: 100%;
 }
 
-.equation [data-type=title] {
+.equation > div [data-type=title] {
   display: block;
   font-weight: bold;
   text-align: center;
@@ -2050,6 +2054,10 @@ pre[data-type=code].centered-code {
   vertical-align: middle;
 }
 
+[data-type=equation] {
+  overflow: auto;
+}
+
 [data-type=equation] > div {
   display: table;
   width: 100%;
@@ -2061,13 +2069,13 @@ pre[data-type=code].centered-code {
   text-align: center;
 }
 
-[data-type=equation] > div .os-equation-number {
+[data-type=equation] .os-equation-number {
   display: table-cell;
   width: 5%;
   vertical-align: middle;
 }
 
-[data-type=equation] > div .os-equation-number .os-number {
+[data-type=equation] .os-equation-number .os-number {
   padding: 5px;
   border-color: #000;
   border-style: solid;
