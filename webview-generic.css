@@ -2024,6 +2024,10 @@ pre[data-type=code].centered-code {
   content: " ";
 }
 
+.equation {
+  overflow: auto;
+}
+
 .equation > div {
   display: table;
   width: 100%;
@@ -2048,6 +2052,10 @@ pre[data-type=code].centered-code {
   border-width: 1px;
   text-align: center;
   vertical-align: middle;
+}
+
+[data-type=equation] {
+  overflow: auto;
 }
 
 [data-type=equation] > div {
