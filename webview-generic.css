@@ -2134,3 +2134,8 @@ p.student-sample {
 .os-index-container > .group-by > .os-index-item {
   margin-bottom: 0.5rem;
 }
+
+.os-index-container > .group-by > .os-index-item > .os-term {
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
