@@ -2128,9 +2128,9 @@ p.student-sample {
   margin-bottom: 1rem;
   font-size: calc(2.1rem * var(--content-text-scale));
   font-weight: bold;
+  display: block;
 }
 
-.os-index-container > .group-by > .os-index-item > .os-term {
-  padding-right: 0.5rem;
-  font-weight: bold;
+.os-index-container > .group-by > .os-index-item {
+  margin-bottom: 0.5rem;
 }
