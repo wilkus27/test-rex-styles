@@ -234,6 +234,36 @@ figure .scaled-down-30 ~ .os-caption-container {
   font-weight: bold;
 }
 
+.os-figure.has-mechanism-figure {
+  display: table;
+  margin: 3rem auto;
+}
+
+.os-figure.has-mechanism-figure .os-caption-title-container {
+  color: #424242;
+  font-size: calc(1.2rem * var(--content-text-scale));
+  line-height: calc(1.7rem * var(--content-text-scale));
+}
+
+.os-figure.has-mechanism-figure .os-caption-title-container > .os-title {
+  font-weight: bold;
+}
+
+.os-figure.has-mechanism-figure .os-caption-title-container > .os-title-label {
+  font-weight: bold;
+}
+
+.os-figure.has-mechanism-figure .os-caption-title-container > .os-number {
+  font-weight: bold;
+}
+
+.os-figure.has-mechanism-figure .os-caption-text-container {
+  padding-bottom: 1rem;
+  color: #424242;
+  font-size: calc(1.2rem * var(--content-text-scale));
+  line-height: calc(1.7rem * var(--content-text-scale));
+}
+
 img {
   max-width: 100%;
   margin-top: 1em;
@@ -1995,23 +2025,27 @@ pre[data-type=code].centered-code {
 }
 
 .equation {
+  overflow: auto !important;
+}
+
+.equation > div {
   display: table;
   width: 100%;
 }
 
-.equation [data-type=title] {
+.equation > div [data-type=title] {
   display: block;
   font-weight: bold;
   text-align: center;
 }
 
-.equation .os-equation-number {
+.equation > div .os-equation-number {
   display: table-cell;
   width: 5%;
   vertical-align: middle;
 }
 
-.equation .os-equation-number .os-number {
+.equation > div .os-equation-number .os-number {
   padding: 5px;
   border-color: #000;
   border-style: solid;
@@ -2021,23 +2055,27 @@ pre[data-type=code].centered-code {
 }
 
 [data-type=equation] {
+  overflow: auto !important;
+}
+
+[data-type=equation] > div {
   display: table;
   width: 100%;
 }
 
-[data-type=equation] [data-type=title] {
+[data-type=equation] > div [data-type=title] {
   display: block;
   font-weight: bold;
   text-align: center;
 }
 
-[data-type=equation] .os-equation-number {
+[data-type=equation] > div .os-equation-number {
   display: table-cell;
   width: 5%;
   vertical-align: middle;
 }
 
-[data-type=equation] .os-equation-number .os-number {
+[data-type=equation] > div .os-equation-number .os-number {
   padding: 5px;
   border-color: #000;
   border-style: solid;
