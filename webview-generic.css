@@ -1965,6 +1965,7 @@ pre[data-type=code].centered-code {
 
 .eob.os-references-container .references .os-note-body > a {
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .eoc.os-reference-container .os-chapter-area [data-type=solution] p {
@@ -1978,6 +1979,7 @@ pre[data-type=code].centered-code {
 
 .eoc.os-references-container .references .os-note-body > a {
   margin-top: 10px;
+  text-decoration: none;
 }
 
 a[data-type=cite] {
