@@ -1963,7 +1963,7 @@ pre[data-type=code].centered-code {
   font-weight: bold;
 }
 
-.eob.os-references-container .references .os-note-body > a {
+.eob.os-references-container .references .os-note-body > section > a {
   margin-top: 10px;
   text-decoration: none;
 }
@@ -1977,12 +1977,8 @@ pre[data-type=code].centered-code {
   font-weight: bold;
 }
 
-.eoc.os-references-container .references .os-note-body > a {
+.eoc.os-references-container .references .os-note-body > section > a {
   margin-top: 10px;
-  text-decoration: none;
-}
-
-a[data-type=cite] {
   text-decoration: none;
 }
 
