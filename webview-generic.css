@@ -67,7 +67,7 @@ u[data-effect=double-underline] {
   text-decoration-style: double;
 }
 
-.red-text {
+*:not(.os-term) > .red-text {
   color: #CC0000;
 }
 
