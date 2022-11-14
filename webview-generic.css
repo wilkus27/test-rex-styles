@@ -330,7 +330,7 @@ ol {
 }
 
 ul.critical-thinking {
-  padding-top: v-spacing(1);
+  padding-top: 1rem;
   border-top-style: solid;
   border-top-width: 0.2rem;
   border-top-color: #dcdcdc;
