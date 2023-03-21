@@ -312,8 +312,12 @@ span[data-type=media] img {
   font-weight: bold;
 }
 
-*:not([data-type="title"]) [data-type=term].no-emphasis {
+[data-type=term].no-emphasis {
   font-weight: normal;
+}
+
+[data-type="title"] [data-type=term].no-emphasis {
+  font-weight: bold;
 }
 
 .term {
