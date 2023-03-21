@@ -312,7 +312,7 @@ span[data-type=media] img {
   font-weight: bold;
 }
 
-[data-type=term].no-emphasis {
+:not([data-type="title"]) [data-type=term].no-emphasis {
   font-weight: normal;
 }
 
