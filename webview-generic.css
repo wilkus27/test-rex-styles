@@ -1573,8 +1573,7 @@ a:hover {
 }
 
 [data-type=injected-exercise] [data-type=exercise-question] > .os-divider {
-  display: table-cell;
-  margin-right: h-spacing(1);
+  margin-right: 0.5em;
 }
 
 [data-type=injected-exercise] [data-type=exercise-question] > .os-problem-container {
