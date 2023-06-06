@@ -1682,6 +1682,11 @@ a:hover {
   display: table-cell;
 }
 
+[data-type=injected-exercise] [data-type=alphabetical-question-multipart] > .os-problem-container > [data-type=question-stem].has-first-element {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
 .os-table {
   overflow: auto !important;
   margin: 20px 0;
