@@ -1640,6 +1640,31 @@ a:hover {
   display: block;
 }
 
+[data-type=exercise-question] {
+  display: table;
+}
+
+[data-type=exercise-question] > .os-prefix {
+  display: flex;
+  flex-direction: column;
+  margin-right: h-spacing(1);
+  text-decoration: none;
+  color: #424242;
+  font-weight: bold;
+}
+
+[data-type=exercise-question] > .os-prefix > .os-label {
+  text-transform: uppercase;
+}
+
+[data-type=exercise-question] > .os-prefix > .os-number {
+  align-self: flex-end;
+}
+
+[data-type=exercise-question] > .os-problem-container {
+  width: 90% !important;
+}
+
 .os-table {
   overflow: auto !important;
   margin: 20px 0;
@@ -2051,6 +2076,38 @@ p.student-sample {
 }
 
 [data-type=switch] > :not([data-media~=screen]) {
+  display: none;
+}
+
+.folio-chapter {
+  display: none;
+}
+
+.folio-module {
+  display: none;
+}
+
+.folio-eoc-left {
+  display: none;
+}
+
+.folio-eoc-right {
+  display: none;
+}
+
+.folio-appendix-left {
+  display: none;
+}
+
+.folio-appendix-right {
+  display: none;
+}
+
+.folio-eob-left {
+  display: none;
+}
+
+.folio-eob-right {
   display: none;
 }
 
